@@ -113,3 +113,44 @@ background: rgb(13, 19, 33);
                     background: rgb(255, 255, 255);
                     padding: 17px 20px 17px 20px;
                   }
+ #section-web {
+  width: 1140px;  
+  height: 1395px; 
+  margin: 60px auto ;               
+ }      
+ .web-content{
+   padding: 80px 97px; 
+   align-items: center;  
+   text-align: center;  
+   background: rgba(13, 19, 33, 0.02);            
+ }         
+ .web-content h1{
+  font-size: 32px ; 
+  border-radius: 16px;
+                 
+ } 
+ .web-content p{
+                    color: rgb(13, 19, 33);
+                    font-family: Azeret Mono;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    letter-spacing: 0%;
+                    text-align: center;              
+ }
+ .web-content .web-cards { width: 946px; 
+                    height: 336px;
+
+
+}
+.web-content .web-cards .card {
+ display: flex;   
+ justify-content: space-between;                
+}
+.web-content .web-cards .card .card-left {
+                    padding-right: 100px ;
+
+}
+.web-content .web-cards .card .card-left .button {
+      padding: 12px 20px ;              
+}
